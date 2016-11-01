@@ -1,6 +1,11 @@
 body {
   padding-top: 20px;
   padding-bottom: 40px;
+  font-size: 16px;
+}
+
+.nav-pills {
+  font-size: 20px;
 }
 
 /* Custom container */
@@ -34,23 +39,18 @@ body {
   margin-top: 28px;
 }
 
-.footerContent tr {
-  vertical-align: top;
+.copyright {
+  text-align: center;
 }
 
-div.footer .social {
-  float: right;
-  margin: -65px 30px 0 0;
-}
-
-.checkItOut {
+.checkItOut, .donate {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
   text-decoration: none;
   padding: 11px 19px;
-  font-size: 17.5px;
+  font-size: 20px;
   line-height: 20px;
   color: #ffffff;
   background-color: #0088cc;
@@ -61,9 +61,8 @@ div.footer .social {
 }
 
 
-.checkItOut:hover {
+.checkItOut:hover, .donate:hover {
   color: #111;
   background-color: #fff;
   text-decoration: none;
 }
-
